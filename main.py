@@ -39,13 +39,11 @@ def sequence_check(stack, string):
     return 'Строка сбалансирована'
 
 
-
 def main():
     stack = Stack()
     string = input('Введите строку со скобками ')
 
     print(sequence_check(stack, string))
-
 
 
 if __name__ == '__main__':

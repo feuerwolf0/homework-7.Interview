@@ -75,6 +75,5 @@ def main():
     recieve_message = mailer.recieve_message()
 
 
-
 if __name__ == '__main__':
     main()
